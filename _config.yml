@@ -1,0 +1,19 @@
+# Site settings
+title: Quentin Neyraud
+baseurl: ""
+baseurl_image: "/img"
+url: "http://www.quentinneyraud.fr"
+
+# SEO & head
+twitter_username: "@quentin_neyraud"
+twitter_creator: "@quentin_neyraud"
+meta_description: "Hi! I'm Quentin Neyraud, a front-end developer"
+share_image: "/share-image.png"
+favicon: "/favicon.ico"
+
+# Build settings
+markdown: kramdown
+source: src
+destination: public
+
+assets_path: '/build/'
