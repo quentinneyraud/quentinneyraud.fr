@@ -50,7 +50,7 @@ export default class App {
     this.events.push(FONTS_READY_EVENT)
     WebFont.load({
       google: {
-        families: ['Montserrat:400,700'],
+        families: ['Montserrat:400,700', 'Crimson Text:400i'],
         text: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ?!.,>%éèà1234567890'
       },
       classes: false,
