@@ -1,1 +1,1 @@
-[Demo & docs page](http://jekyll-starter.quentinneyraud.fr)
+Made with jekyll-starter-kit
