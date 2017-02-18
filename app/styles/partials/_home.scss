@@ -65,6 +65,7 @@
 
       a {
         position: relative;
+        z-index: 1;
 
         &:after {
           content: '';
@@ -75,6 +76,7 @@
           height: 0;
           background-color: rgba(246, 149, 111, 0.5);
           transition: all 0.3s $easeInOutSine;
+          z-index: -1;
         }
 
         &:hover:after {
