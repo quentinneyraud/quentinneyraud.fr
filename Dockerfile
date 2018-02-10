@@ -6,7 +6,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install -y nodejs build-essential
 
 # Ruby
-RUN apt-get -y install ruby ruby2.3-dev rubygems git gcc make \
+RUN apt-get -y install ruby ruby-dev rubygems git gcc make \
 	&& git clone https://github.com/rubygems/rubygems.git /home/rubygems/ \
 	&& rm -rf /var/lib/apt/lists/*
 
